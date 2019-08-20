@@ -1,0 +1,10 @@
+{application,bunsan_users,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             postgrex,ecto_sql]},
+              {description,"bunsan_users"},
+              {modules,['Elixir.BunsanUsers','Elixir.BunsanUsers.Application',
+                        'Elixir.BunsanUsers.DataCase',
+                        'Elixir.BunsanUsers.Repo','Elixir.BunsanUsers.User']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.BunsanUsers.Application',[]}}]}.
